@@ -5,6 +5,8 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
+import Certificates from './components/Certificates';
+import Education from './components/Education';
 import './App.css';
 
 function App() {
@@ -13,9 +15,11 @@ function App() {
       <Header />
       <Contact />
       <AboutMe />
-      <Skills />
+      <Education />
       <Experience />
       <Projects />
+      <Skills />
+      <Certificates />
     </div>
   );
 }

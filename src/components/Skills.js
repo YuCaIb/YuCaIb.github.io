@@ -23,9 +23,9 @@ function Skills() {
                 <div className="skill-category">
                     <h3>Frameworks</h3>
                     <div className="skill-items">
-                        <span className="skill-item">ASP.NET</span>
                         <span className="skill-item">Flask</span>
-                        <span className="skill-item">Django</span>
+                        <span className="skill-item">React</span>
+                        <span className="skill-item">Hg-Face</span>
                         <span className="skill-item">WPF</span>
                     </div>
                 </div>
@@ -43,9 +43,11 @@ function Skills() {
                     <div className="skill-items">
                         <span className="skill-item">PyTorch</span>
                         <span className="skill-item">OpenCV</span>
-                        <span className="skill-item">YOLO</span>
                         <span className="skill-item">TensorFlow</span>
                         <span className="skill-item">Scikit</span>
+                        <span className="skill-item">Numpy</span>
+                        <span className="skill-item">Pandas</span>
+                        <span className="skill-item">Seaborn</span>
                     </div>
                 </div>
 
