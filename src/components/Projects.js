@@ -1,6 +1,6 @@
 import React from 'react';
 import SignLanguage from './SignLanguage';
-import './Header.css'; // Ayrı bir CSS dosyası kullanacağız
+import './Projects.css'; // Ayrı bir CSS dosyası kullanacağız
 
 function Projects() {
   return (
