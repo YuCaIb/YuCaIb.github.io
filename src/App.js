@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Contact />
+      <div className="intro-section">
+        <h1>Hakkımda</h1>
+        <p>Merhaba, ben Yusuf Can İbişoğlu. Bilgisayar Mühendisiyim ve yapay zeka meraklısıyım. Bu site; portfolyomu, özgeçmişimi ve projelerimi paylaşmak için tasarlanmıştır.</p>
+      </div>
+      <Projects />
     </div>
   );
 }
